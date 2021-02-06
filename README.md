@@ -59,13 +59,31 @@ HTML("""
        
          
   **Nhận diện đối tượng qua ảnh**
+  
   1. Đưa ảnh cần Test vào thư mục data trên Darnet,
+  
   # run darknet detection
+  
    #di chuyển tới thư mục data, tải lên các ảnh để dự đoán
+   
+   
    2. Chạy Yolo 3 để phân tích ảnh:
+   
       !./darknet detect cfg/yolov3.cfg yolov3.weights data/person1.jpg
-    3. Hiển thị ảnh kết quả sau khi phan tích:
+      
+   3. Hiển thị ảnh kết quả sau khi phan tích:
+   
     # show image using our helper function
+    
         imShow('predictions.jpg')
         
+ **ĐÁNH GIÁ:
+ - Với bộ dữ liệu train khá lớn của Darknet (hơn 20.000 ảnh), 80 class, các đối tượng được nhận diện với độ chính xác lên đến 95 - 100%
+ 
+ **NHỮNG VẤN ĐỀ NHÓM ĐÃ LÀM ĐƯỢC:
+ - Có thể sử dụng tốt Google Colab, Github và lập trình Python, Yolo trong việc nhận diện đối tượng
+ - Nhận diện được đối tượng qua ảnh, video clip
+ - 
+ *NHỮNG VẤN ĐỀ CHƯA LÀM ĐƯỢC:
+ - TÙY BIẾN CODE YOLO 3 ĐỂ NHẬN DIỆN MỘT SỐ ĐÓI TƯỢNG CỤ THỂ. Đây cũng là hướng để nhóm nghiên cứu, phát triển thêm.
  
