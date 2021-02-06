@@ -33,7 +33,9 @@ Ngày 27/9/2020, nhóm nộp mô tả đồ án cuối kỳ lần đầu với n
        +https://phamdinhkhanh.github.io/2020/03/10/DarknetGoogleColab.html
   - Bộ dữ liệu huấn luyện: Yolo Coco dataset: https://pjreddie.com/media/files/yolov3.weights
   - Nhóm sử dụng Google Colab để chạy Yolo 3 theo các nguồn tham khảo ở trên.
+  
   **Nhận diện đối tượng qua Clip:**
+  
   1. Tải ảnh lên :
     from google.colab import files
     uploaded = files.upload()
@@ -55,4 +57,15 @@ HTML("""
 </video>
 """ % data_url)
        
+         
+  **Nhận diện đối tượng qua ảnh**
+  1. Đưa ảnh cần Test vào thư mục data trên Darnet,
+  # run darknet detection
+   #di chuyển tới thư mục data, tải lên các ảnh để dự đoán
+   2. Chạy Yolo 3 để phân tích ảnh:
+      !./darknet detect cfg/yolov3.cfg yolov3.weights data/person1.jpg
+    3. Hiển thị ảnh kết quả sau khi phan tích:
+    # show image using our helper function
+        imShow('predictions.jpg')
+        
  
