@@ -6,6 +6,11 @@
    - 1. Trần Văn San _ CH2001013
    - 2. Vũ Linh _ CH2004008
    - 3. Cao Nguyễn Nam Hiền _ CH2001005
+ **Link báo cáo:** https://docs.google.com/presentation/d/1CZ8HF3MNDnRTJM6zI9vS-8Elnj9pWSl3_P9i1QFFleg/edit?usp=sharing
+ **Link Youtube:** 
+   - Giới thiệu: https://youtu.be/W9_efYf1DQU
+   - Demo các kết quả: https://youtube.com/playlist?list=PLl1c-nvyWcI8TZHrWjAaXO9LYzSu_0rJB
+
    
  **Sau buổi hướng dẫn ngày 13/9/2020, Nhóm tự tạo các Github cá nhân, trong đó nhóm Trưởng tạo Github nhóm với địa chỉ:**
   - 1. Trần Văn San: https://github.com/CS2225CH2001013/
